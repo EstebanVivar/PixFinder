@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/-REACT-PixFinder/static/js/main.80d52843.chunk.js",
-    "main.js.map": "/-REACT-PixFinder/static/js/main.80d52843.chunk.js.map",
-    "runtime-main.js": "/-REACT-PixFinder/static/js/runtime-main.ad065de5.js",
-    "runtime-main.js.map": "/-REACT-PixFinder/static/js/runtime-main.ad065de5.js.map",
-    "static/js/2.eba9f63a.chunk.js": "/-REACT-PixFinder/static/js/2.eba9f63a.chunk.js",
-    "static/js/2.eba9f63a.chunk.js.map": "/-REACT-PixFinder/static/js/2.eba9f63a.chunk.js.map",
-    "static/js/3.5c31fa8f.chunk.js": "/-REACT-PixFinder/static/js/3.5c31fa8f.chunk.js",
-    "static/js/3.5c31fa8f.chunk.js.map": "/-REACT-PixFinder/static/js/3.5c31fa8f.chunk.js.map",
-    "index.html": "/-REACT-PixFinder/index.html",
-    "static/js/2.eba9f63a.chunk.js.LICENSE.txt": "/-REACT-PixFinder/static/js/2.eba9f63a.chunk.js.LICENSE.txt"
+    "main.js": "/PixFinder/static/js/main.80d52843.chunk.js",
+    "main.js.map": "/PixFinder/static/js/main.80d52843.chunk.js.map",
+    "runtime-main.js": "/PixFinder/static/js/runtime-main.071d2263.js",
+    "runtime-main.js.map": "/PixFinder/static/js/runtime-main.071d2263.js.map",
+    "static/js/2.eba9f63a.chunk.js": "/PixFinder/static/js/2.eba9f63a.chunk.js",
+    "static/js/2.eba9f63a.chunk.js.map": "/PixFinder/static/js/2.eba9f63a.chunk.js.map",
+    "static/js/3.5c31fa8f.chunk.js": "/PixFinder/static/js/3.5c31fa8f.chunk.js",
+    "static/js/3.5c31fa8f.chunk.js.map": "/PixFinder/static/js/3.5c31fa8f.chunk.js.map",
+    "index.html": "/PixFinder/index.html",
+    "static/js/2.eba9f63a.chunk.js.LICENSE.txt": "/PixFinder/static/js/2.eba9f63a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ad065de5.js",
+    "static/js/runtime-main.071d2263.js",
     "static/js/2.eba9f63a.chunk.js",
     "static/js/main.80d52843.chunk.js"
   ]
