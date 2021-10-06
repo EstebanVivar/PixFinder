@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/PixFinder/static/js/main.78b5bbb0.chunk.js",
-    "main.js.map": "/PixFinder/static/js/main.78b5bbb0.chunk.js.map",
+    "main.js": "/PixFinder/static/js/main.9783249a.chunk.js",
+    "main.js.map": "/PixFinder/static/js/main.9783249a.chunk.js.map",
     "runtime-main.js": "/PixFinder/static/js/runtime-main.b77f5bab.js",
     "runtime-main.js.map": "/PixFinder/static/js/runtime-main.b77f5bab.js.map",
     "static/js/2.5da78cd0.chunk.js": "/PixFinder/static/js/2.5da78cd0.chunk.js",
@@ -14,6 +14,6 @@
   "entrypoints": [
     "static/js/runtime-main.b77f5bab.js",
     "static/js/2.5da78cd0.chunk.js",
-    "static/js/main.78b5bbb0.chunk.js"
+    "static/js/main.9783249a.chunk.js"
   ]
 }
