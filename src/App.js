@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-
 import Form from './components/Form';
 import ContainerImages from './components/ContainerImages';
 
@@ -22,16 +21,21 @@ function App() {
       const url = `https://pixabay.com/api/?key=${key}&q=${Search.replace(" ", "+")}&per_page=${imagesOnPage}&page=${Page}`;
       const response = await fetch(url);
       const results = await response.json();
-      setInitial(false);
+
+
       setResults(results.hits);
       setPages(Math.ceil(results.totalHits / imagesOnPage));
-      const jumbotron = document.querySelector(".jumbotron");
-      jumbotron.scrollIntoView({ behavior: "smooth" })
+      const jumbotron = document.querySelector(".page-header");
+      jumbotron.scrollIntoView({ behavior: "smooth" });
 
+      if (results.totalHits > 0) {
+        setInitial(false);
+        return;
+      }
+      setInitial(true);
     }
     requestAPI();
   }, [Search, Page])
-
   const previousPage = () => {
     const newPage = Page - 1;
 
@@ -51,16 +55,20 @@ function App() {
   }
 
   return (
-    <div className="container">
-      <div className="jumbotron">
-        <p className="h1 text-center">PIXABAY</p>
-        <br />
+    <div className="container" style={{ height: 100 + "vh" }} >
+      <div className="page-header  rounded" style={{ background: "transparent", textAlign: "center" }}>
+        <a href="/PixFinder/" className="badge badge-dark mb-3 mt-2" style={{
+          color: "white", fontSize: 40 + "px", fontFamily: 'Varela Round', width: 50 + "%",
+          textAlign: "center"
+        }}>PIXABAY</a>
         <Form
           setSearch={setSearch} />
       </div>
       <div className="row justify-content-center">
-        <ContainerImages Results={Results} />
-
+        {(Results === 0) ? null :
+          <ContainerImages Results={Results} />
+        }
+        <br/>
         {(Page === 1 || Initial) ? null :
           <button
             type="button"

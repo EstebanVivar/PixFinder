@@ -32,7 +32,7 @@ const Form = ({ setSearch }) => {
                 <div className="form-group col-md-4">
                     <input
                         type="submit"
-                        className="btn btn-lg btn-warning btn-block"
+                        className="btn btn-lg btn-dark btn-block"
                         value="Search" />
 
                 </div>
